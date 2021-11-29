@@ -26,13 +26,13 @@ def find_number(number: int = 1, beg_num: int = 1, end_num: int = 101,
         
     return count
 
-any_num = 7
-any_num_ones = any_num % 10
-any_num_tens = any_num - any_num_ones
+#any_num = 7
+#any_num_ones = any_num % 10
+#any_num_tens = any_num - any_num_ones
 
-print(any_num_tens, any_num_ones)
-print(find_number(any_num_tens, 10, 101, 10))
-print(find_number(any_num_ones, 1, 11, 1))
+#print(any_num_tens, any_num_ones)
+#print(find_number(any_num_tens, 10, 101, 10))
+#print(find_number(any_num_ones, 1, 11, 1))
 
 def score_game_v3(find_number) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
