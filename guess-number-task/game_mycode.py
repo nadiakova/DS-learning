@@ -50,7 +50,7 @@ def score_game_v3(find_number) -> int:
     for number in random_array:
         # Разделим число на десятки и единицы
         num_ones = number % 10
-        num_tens = number - any_num_ones
+        num_tens = number - num_ones
         
         # Найдём, в каком интервале 0, 10, 20...100 находится наше число
         # далее внутри самого интервала найдём наше число
